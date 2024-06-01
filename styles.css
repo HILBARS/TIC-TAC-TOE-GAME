@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table, th, td {
+  border:1px solid black;
+}
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(51, 51, 51);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(240, 244, 249);
+  border: 3px solid rgb(51, 51, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-inline: 450px;
+}
+
+.cell:hover {
+  background-color: rgb(241, 13, 169);
+}
+
+.restart-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: rgb(6, 9, 12);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-btn:hover {
+  background-color: rgb(243, 25, 25);
+}
+
+.message {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-inline: 20px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif ;
+  font-weight: 700;
+  font-size: xx-large;
+  color: navy;
+  font-style: italic;
+}
+
+header {
+  text-align: left;
+   color: #fff;
+   border-bottom: 5px solid black;
+   background-image: url('WhatsApp\ Image\ 2024-05-17\ at\ 08.29.16_a661a58e.jpg');
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+  background-image: url('WhatsApp\ Image\ 2024-05-17\ at\ 08.29.16_a661a58e.jpg'); /* Specify the path to your image */
+  background-size: cover;
+  background-position: center;
+  color: #333; /* Text color for better readability on the image */
+  height: 100vh; /* Make section height equal to viewport height */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: rgb(47, 241, 241);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+
+

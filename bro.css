@@ -1,0 +1,120 @@
+body, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: left;
+     color: #fff;
+     border-bottom: 5px solid black;
+     background-image: url('WhatsApp\ Image\ 2024-05-17\ at\ 08.29.16_a661a58e.jpg');
+}
+
+h1 {
+    font-family: "Poppins", sans-serif ;
+    font-weight: 700;
+    font-size: xx-large;
+    color: navy;
+    font-style: italic;
+}
+
+span {
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: red;
+    font-style: italic;
+    margin: 35%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: rgb(47, 241, 241);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: red;
+}
+
+
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url('WhatsApp\ Image\ 2024-05-17\ at\ 08.29.16_a661a58e.jpg'); /* Specify the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #333; 
+    height: 100vh;
+}
+
+img {
+    width: 800px;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: pink;
+}
+
+  #p2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: large;
+    text-align: center;
+    font-style: bold;
+} 
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#ram {
+    background-image: url(FunFacts\ About\ Tic\ Tac\ Toe.jpg);  
+}
+
+main {
+    padding: 10px;
+    display: block;
+    unicode-bidi: isolate;
+    margin-inline: 15%;
+}
+
+
+
+
+
+
